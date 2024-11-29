@@ -17,7 +17,7 @@ public class ShippingSelectionStep {
     @Step
 
     public void shippingSelection() throws InterruptedException {
-//TODO CAMBIAR LINEA 21
+
         Thread.sleep(3000);
         waitForElement(ShippingPageObject.getBtnUnderstood(), Duration.ofSeconds(10));
         selectClick(ShippingPageObject.getBtnUnderstood());
